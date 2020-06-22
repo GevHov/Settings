@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewDelegateDataSource()
+        print("Hello")
     }
     
     private func tableViewDelegateDataSource() {
@@ -53,7 +54,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
+        return 40
     }
     
 }
