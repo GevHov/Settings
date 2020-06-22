@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523F102E24A10F5C0045C6B6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F102D24A10F5C0045C6B6 /* AddViewController.swift */; };
 		5253E92D2487F90700C65C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253E92C2487F90700C65C15 /* AppDelegate.swift */; };
 		5253E92F2487F90700C65C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253E92E2487F90700C65C15 /* SceneDelegate.swift */; };
 		5253E9312487F90700C65C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253E9302487F90700C65C15 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523F102D24A10F5C0045C6B6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		5253E9292487F90700C65C15 /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5253E92C2487F90700C65C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5253E92E2487F90700C65C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				5253E94424880D8400C65C15 /* Storyboard.storyboard */,
 				5253E94724880E6100C65C15 /* SecondViewController.swift */,
 				5253E94924880EED00C65C15 /* SecondTableViewCell.swift */,
+				523F102D24A10F5C0045C6B6 /* AddViewController.swift */,
 			);
 			path = SecondViewController;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				5253E94824880E6100C65C15 /* SecondViewController.swift in Sources */,
 				5253E9432488064A00C65C15 /* SettingsModel.swift in Sources */,
+				523F102E24A10F5C0045C6B6 /* AddViewController.swift in Sources */,
 				5253E9312487F90700C65C15 /* ViewController.swift in Sources */,
 				5253E92D2487F90700C65C15 /* AppDelegate.swift in Sources */,
 				5253E9412487FFC300C65C15 /* SettingsTableViewCell.swift in Sources */,
