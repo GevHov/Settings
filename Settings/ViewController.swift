@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableViewDelegateDataSource()
-        print("Hello")
+        print("Hello Git")
     }
     
     private func tableViewDelegateDataSource() {
