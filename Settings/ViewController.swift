@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     SettingsModel(title: "Delivery updates", desc: "Description is one of four rhetorical modes (also known as modes of discourse)", switchValue: true),
     SettingsModel(title: "Email", desc: "The semantic descriptions of the devices were varied, but the pictures were identical for both conditions.", switchValue: false)]
     
-    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
